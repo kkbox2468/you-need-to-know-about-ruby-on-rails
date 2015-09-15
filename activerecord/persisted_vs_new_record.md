@@ -2,8 +2,8 @@
 
 ## Explain
 
-	- persisted? 判斷是否已經存入 database 且不是新增的資料
-	- new_record? 判斷是否是新增資料
++ persisted? 判斷是否已經存入 database 且不是新增的資料
++ new_record? 判斷是否是新增資料
 
 ## Eaample
 
