@@ -4,3 +4,4 @@
    * [where.not](activerecord/where_not.md)
    * [delete vs destroy](activerecord/delete_vs_destroy.md)
    * [validates_with](activerecord/validates_with.md)
+   * [custom validators](activerecord/custom_validators.md)
