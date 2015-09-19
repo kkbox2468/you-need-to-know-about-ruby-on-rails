@@ -12,15 +12,14 @@
 + disposable-email-domains.json：內容請參考 [ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains/blob/master/index.json)
 + delegate 用法：將 get_mail_domain 與 valid? 指向給 self，意思是當呼叫 get_mail_domain 與 valid?，實際上是呼叫 self.get_mail_domain 與 self.valid?
 
-#### path： /app/models/user.rb
-
+/app/models/user.rb
 ```ruby
 class User < ActiveRecord::Base
   validates :email, ban_disposable: true
 end
 ```
-#### path： /lib/validators/ban_disposable_validator.rb
 
+/lib/validators/ban_disposable_validator.rb
 ```ruby
 class BanDisposableValidator < ActiveModel::EachValidator
 

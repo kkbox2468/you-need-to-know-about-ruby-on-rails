@@ -12,16 +12,14 @@
 + disposable-email-domains.json：內容請參考 [ivolo/disposable-email-domains](https://github.com/ivolo/disposable-email-domains/blob/master/index.json)
 
 
-#### path： /app/models/user.rb
-
+/app/models/user.rb
 ```ruby
 class User < ActiveRecord::Base
   validates_with EmailDomainValidator
 end
 ```
 
-#### path： /lib/validators/email_domain_validator.rb
-
+/lib/validators/email_domain_validator.rb
 ```ruby
 class EmailDomainValidator < ActiveModel::Validator
 
