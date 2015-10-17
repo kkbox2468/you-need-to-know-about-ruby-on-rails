@@ -5,3 +5,5 @@
    * [delete vs destroy](activerecord/delete_vs_destroy.md)
    * [validates_with](activerecord/validates_with.md)
    * [custom validators](activerecord/custom_validators.md)
+* [ActionController](actioncontroller/README.md)
+   * [get a list of all the filters](actioncontroller/get_a_list_of_all_the_filters.md)
